@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&display=swap" rel="stylesheet">
+  <title>Matias Rafael</title>
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <nav>
+    <h2 class="portfolio">Portfo<span>lio</span></h2>
+    <ul>
+      <li><a class="link-menu" href="#projetos-id">Projetos</a></li>
+      <li><a class="link-menu" href="#fale-comigo">Fale comigo</a></li>
+    </ul>
+  </nav>
+
+
+  <section class="presentation">
+    <div class="meu-nome">
+      <h1><span>Matias</span> Rafael </h1>
+      <h3>Programador Front End</h3>
+    </div>
+  </section>
+
+  <!-- teste-->
+  <section class="containerproje">
+    <div class="slide-container active">
+      <div class="slide">
+        <img class="soueu" src="./img/soueu.png" data-aos="fade-up" alt="that's me">
+        <div class="contentproje" data-aos="fade-up">
+
+          <h3>Sobre mim</h3>
+          <p>Eu sou um Programador Front End, tenho experiência e conhecimento criando aplicações com HTML, CSS,
+            JavaScript, React e Node</p>
+          <a href="https://www.linkedin.com/in/matias-rafael-05293a233/"  target="_blank" class="bntproj">Linkedin</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-container">
+      <div class="slide">
+        <div class="contentproje">
+
+          <!--teste -->
+          <section>
+            
+            <div class="centralizador">
+              
+              <div class="habilidades-pd">
+                <h4 class="title-skill"> Habilidades</h4>
+                <div class="skills-descricao">
+                  
+                  <div class="conteiner-skills">
+                    
+                    <div class="skill-box skill1 html-skill">
+                      <img class="icones-habilidades" src="./img/html.png" alt="html-icon" />
+                    </div>
+                    <div class="skill-box skill2 css-skill">
+                      <img class="icones-habilidades" src="./img/css.png" alt="css-icon" />
+                    </div>
+                    <div class="skill-box skill3 js skill">
+                      <img class="icones-habilidades" src="./img/js.png" alt="js-icon" />
+                    </div>
+                    <div class="skill-box skill7">
+                      <img class="icones-habilidades" src="./img/git.png" alt="git-icon" />
+                    </div>
+                    <div class="skill-box skill8">
+                      <img class="icones-habilidades" src="./img/github.jpg" alt="react-icon" />
+                    </div>
+                    <div class="skill-box skill13 sass-skill">
+                      <img class="icones-habilidades" src="./img/nodejs.png" alt="nodejs-icon" />
+                    </div>
+                    <div class="skill-box skill9 git-skill">
+                      <img class="icones-habilidades" src="./img/react.png" alt="react-icon" />
+                    </div>
+                    <div class="skill-box skill10 github-skill">
+                      <img class="icones-habilidades" src="./img/postgresql.png" alt="github-icon" />
+                    </div>
+                  </div>
+                  <div class="conteiner-descricao">
+                    <img class="texto-descricao" src="./img/soueudnv.png" alt="thisIsmeAgain" />
+                    </img>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--fim teste-->
+
+        </div>
+      </div>
+    </div>
+    <div id="prev" onclick="prev()">
+      < </div>
+        <div id="next" onclick="next()"> > </div>
+  </section>
+
+  <script src="js/script.js"></script>
+
+  <!--TESTE SLIDE-->
+  <section class="projects" id="projetos-id">
+    <div class="slide-container swiper">
+      <div class="slide-content" data-aos="fade-up">
+        <div class="card-wrapper swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="./img/PrevisãoTempo.png" alt="weather forecast-icon" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Previsão do tempo</h2>
+              <p class="description">Tecnologias JavaScript, CSS e HTML. Esse projeto se baseia em mostrar qual a temperatura da cidade digitada.
+                <br>
+                <br>
+              </p>
+              <a href="https://missaovoceprogramador.netlify.app/" target="_blank"><button class="button">Visualizar</button></a>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="./img/netflix.png" alt="" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Netflix</h2>
+              <p class="description">Um clone da página de login do Netflix. Nesse projeto utilizei as tecnologias JavaScript, CSS e HTML.
+                <br>
+                <br>
+              </p>
+
+              <a href="https://pageloginnetflix.netlify.app/" target="_blank"><button class="button">Visualizar</button></a>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="./img/starbucks.png" alt="Starbucks-icon" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Starbucks</h2>
+              <p class="description">Tela de degustação cafés Starbucks,foram usadas as tecnologias JavaScript, CSS e HTML.
+                <br>
+                <br>
+              </p>
+
+              <a href="https://starbucksflavors.netlify.app/" target="_blank"><button class="button">Visualizar</button></a>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="./img/crono.png" alt="stopwatch-icon" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Cronômetro</h2>
+              <p class="description">Esse cronômetro tem as funcionalidades de pausar e zerar a contagem, feito com as tecnologias JavaScript, CSS e HTML.
+                <br>
+                <br>
+              </p>
+
+              <a href="https://cronometro-devclub-missaodozero.netlify.app/" target="_blank"><button class="button">Visualizar</button></a>            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="./img/Conversor.png" alt="converter-icon" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Conversor de Moedas</h2>
+              <p class="description">De Real para Dólar,Euro ou Bitcoin. Inclusão de um API para a atualizção em tempo real da moeda, foi utlizado JS, CSS e HTML.</p>
+
+              <a href="https://conversordemoedas-missao.netlify.app/" target="_blank"><button class="button">Visualizar</button></a>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="./img/insta.png" alt="instagram-icon" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Instagram</h2>
+              <p class="description">Réplica da página de login do Instagram, esse projeto foi feito com JavaScript, CSS e HTML.
+                <br>
+                <br>
+              </p>
+
+              <a href="https://loginpageinstagram.netlify.app/" target="_blank"><button class="button">Visualizar</button></a>            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="/img/Design sem nome.png" alt="ConstructionBoard-icon" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Construindo ...</h2>
+              <p class="description">Esse projeto ainda está em construção em breve (Espaço destinado a futuros projetos, com outras tecnologias, novas ideias e mais conhecimento).</p>
+
+              <button class="button">Visualizar</button>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="/img/Design sem nome.png" alt="ConstructionBoard-icon" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Construindo ...</h2>
+              <p class="description">Esse projeto ainda está em construção em breve (Espaço destinado a futuros projetos, com outras tecnologias, novas ideias e mais conhecimento).</p>
+
+              <button class="button">Visualizar</button>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="/img/Design sem nome.png" alt="ConstructionBoard-icon" class="card-img">
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Construindo ...</h2>
+              <p class="description">Esse projeto ainda está em construção em breve (Espaço destinado a futuros projetos, com outras tecnologias, novas ideias e mais conhecimento).</p>
+
+              <button class="button">Visualizar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </section>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/script1.js"></script>
+
+
+  <footer id="fale-comigo">
+
+    <p data-aos="fade-up">Para mais informações</p>
+
+    <div class="social" data-aos="fade-up">
+      <a href="https://www.linkedin.com/in/matias-rafael/" target="_blank">
+        <img src="./img/linkedin.png" alt="Linkedin-icon">
+      </a>
+
+      <a href="https://api.whatsapp.com/send?phone=31984174066" target="_blank">
+        <img src="./img/telefone.png" alt="telefon-icon">
+      </a>
+
+      <a href="https://github.com/matiasrafael" target="_blank">
+        <img src="./img/th.png" alt="github-icon">
+      </a>
+
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000
+    });
+  </script>
+<script>
+  const card = document.querySelector("conteiner-skills")
+  card.addEventListener("click",(e)=>{
+    card.classList.toggle("icones-habilidades")
+  })
+</script>
+  
+</body>
+
+</html>
